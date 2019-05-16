@@ -26,7 +26,7 @@ Sub GetSpotLightImg()
   Dim cnt As Long
   Dim newName As String
   
-' �Q�Ɛݒ肪�K�v�iWindows Script Host Object Model�j
+' 参照設定が必要（Windows Script Host Object Model）
   Dim oNetwork As New IWshRuntimeLibrary.WshNetwork
   Dim UsrId As String
   UsrId = oNetwork.UserName
